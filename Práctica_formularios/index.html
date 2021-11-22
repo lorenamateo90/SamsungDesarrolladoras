@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica</title>
+</head>
+<body>
+    <h1>Formulario Información Alta Telefónica</h1>
+    <form action="./procesarFormulario.php" name="telefonica">
+        <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" maxlength="30"/>
+        <br /> 
+        <label for="surname">Apellidos:</label> 
+        <input type="text" name="surname" maxlength="60"/>
+        <br />
+        <label for="address">Dirección:</label>
+        <input type="text" name="address" maxlength="60"/>
+        <br />
+        <label for="code">Código Postal:</label>
+        <input type="number" name="code" pattern="[0-9]{5}" />
+        <br />
+        <label for="locality">Localidad:</label>
+        <input type="text" name="locality" />
+        <br />
+        </fieldset>
+        <br />
+
+
+        <fieldset>
+            <legend>Tipo de contratacion</legend>
+            <label for="">
+            <input type="radio" name="internet" value="new" checked>Nueva contratación &nbsp; 
+            <input type="radio" name="internet" value="portability">Portabilidad &nbsp;
+            <input type="radio" name="internet" value="change">Cambio de contrato 
+            <br />
+        </label>
+
+        Elija la compañia: 
+        <select name="company">
+        <option value="movistar">Movistar</option>
+        <option value="orange">Orange</option>
+        <option value="vodafone">Vodafone</option>
+        <option value="yoigo">Yoigo</option>
+        <option value="ninguna">No Tengo Ninguna Compañía</option>
+        </select> 
+        &nbsp; &nbsp;
+
+        En caso de portabilidad, elija la nueva compañia: 
+        <select name="portability">
+        <option value="movistar">Movistar</option>
+        <option value="orange">Orange</option>
+        <option value="vodafone">Vodafone</option>
+        <option value="yoigo">Yoigo</option>
+        </select> 
+        &nbsp; &nbsp;
+        </fieldset>
+       
+
+        <fieldset>
+        <legend>Datos bancarios</legend>
+        <label for="name">País:</label>
+        <input type="text" name="pais" value="ES" placeholder="ES" readonly="readonly" /> (sólo válido ES)
+        <br /> 
+        <label for="iban">Control IBAN:</label>
+        <input type="text" name="iban" placeholder="XX"" pattern="[0-9]{2}"/> (dos dígitos)
+        <br /> 
+        <label for="entity">Entidad:</label>
+        <input type="text" name="entity" placeholder="XXXX" pattern="[0-9]{4}"/> (cuatro dígitos)
+        <br /> 
+        <label for="branch">Sucursal:</label>
+        <input type="text" name="branch" placeholder="XXXX" pattern="[0-9]{4}" /> (cuatro dígitos)
+        <br /> 
+        <label for="dc">DC:</label>
+        <input type="text" name="dc" placeholder="XX" pattern="[0-9]{2}"/> (sólo válido ES)
+        <br /> 
+        <label for="account">Cuenta:</label>
+        <input type="text" name="account" placeholder="XXXXXXXXXX" pattern="[0-9]{10}" //> (diez dígitos)
+        <br /> 
+        </fieldset>
+        <input type="submit" value="Enviar Datos" />
+        <input type="reset" value="Borrar Datos" />
+    </form>
+
+</body>
+</html>
