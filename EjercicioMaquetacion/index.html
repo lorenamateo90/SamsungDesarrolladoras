@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Laboratorio</title>
+</head>
+<body>
+    <div class="background">
+        <table class="container">			
+            <tr>
+                <td>
+                    <h1>Bienvenidos al Ejercicio Final del Curso</h1>
+                    <p>El texto superior está con tipo de letra <span class="black red">Palatino Linotype</span>, y es un encabezado. De hecho, hay que hacer constar que el texto por defecto del sitio web es Palatino Linotype.</p>
+
+                    <p>El texto está embebido en una tabla (mediante la etiqueta <span class="black">&lt;table&gt;</span>), y dentro se han insertado varias filas y/o celdas.</p>
+
+                    <p>Para que se considere, todo este contenido está ocupando un total del 65% del ancho de la página. Los porcentajes superior, inferior, izquierdo y derecho que se ven de margen son, respectivamente, 5%, 0%, 30% y 5%. </p>
+
+                    <p>El fondo está fijo. Para ello, lo mejor es poner la siguiente regla en CSS: <span class="red">background-attachment : fixed;</span></p>
+
+                    <h2>Seguro que lo consigues ...</h2>
+
+                    <p>El texto de párrafo, por defecto, está justificado. Los títulos (etiquetas hx) están todos centrados. El texto del cuerpo de la página web es, en cualquier caso, Palatino Linotype. El padding de los encabezados es 5% (izquierda y derecha), el de los párrafos es 10% (izquierda y derecha) y el de las listas es del 15% (izquierda y derecha)</p>
+
+                    <h3>... y otras muchas cosas que es importante considerar ...</h3>
+
+                    <p>Hay que tener en cuenta las siguientes restricciones</p>	
+                    
+                    <ul class="add">
+                        <li>Uno, las listas, no son párrafos, y por ello tienen el texto por defecto de la página, es decir, <span class="black">Palatino Linotype</span>.</li>
+                        <li>Además, están justificadas. Esto quiere decir que como el <span class="blue">padding</span> es superior al de los párrafos, todo aparecerá  perfectamente justificado. </li>
+                        <li>Esta lista no numerada emplea una imagen suministrada, que es <span class="red">add.png</span></li>
+                        <li>Para hacer lo anterior, hay que incluir la siguiente instrucción en una regla que afecta a esta lista: <span class="red">list-style-image : url("add.png");</span></li>
+                    </ul>
+                    <p> Respecto al fondo de la página también hay que tener en cuenta las siguientes consideraciones: </p>
+                    <ul class="next">
+                        <li>La imagen de fondo ocupa toda la pantalla.</li>
+                        <li>La parte central (donde se encuentra este texto), tiene un margen superior del 5% e inferior del 0%. Además, como puede comprobarse, no está centrada. Ocupa el 65% del ancho total, siendo el espacio de la izquierda del 30% y el de la derecha del 5%. </li>
+                        <li>Esta lista no numerada emplea una imagen suministrada, que es <span class="blue">next.png</span></li>
+                        <li>Para hacer lo anterior, hay que incluir la siguiente instrucción en una regla que afecta a esta lista: <span class="blue"> list-style-image : url("next.png");</span></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="footer">
+                <td>
+                    <h1 id="#coffee">Y si te gusta el café ... esta imagen seguro que es sugerente</h1>
+                    
+                    <p>
+                        <img class="photo" src="./images/cafe.jpg" alt="Foto de una estanteria de tazas de cafe" />
+                    </p>
+                    <h1>World Wide Web Consortium (W3C) es una comunidad internacional que desarrolla estándares que aseguran el crecimiento de la Web a largo plazo.</h1>
+                    <a href="https://www.w3c.es">
+                        <h1>Pulsa sobre este enlace e irás a su página principal</h1>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>

@@ -1,0 +1,56 @@
+body{
+   background:cyan;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color:blue;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+span.code {
+    font-weight: bold;
+    font-family: Courier;
+}
+
+span.big {
+    font-size: xx-large;
+}
+
+span.small {
+    font-size: xx-small;
+}
+
+table.table {
+    margin: 0;						
+    padding: 0;
+    background-color: blue;
+    border: thin none black;
+    width:100%;
+    align-items: left;
+}
+
+.thirdTitle{
+    font-size:x-large;
+}
+
+td {
+    padding: 0;
+	margin: 0;
+	border: thick solid black;
+	color: yellow;
+}
+
+td.red {
+    background-color: red;			
+    color: white;
+}
+
+img{
+    width: 276px;
+    height:110px;
+}
