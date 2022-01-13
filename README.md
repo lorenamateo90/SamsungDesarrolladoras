@@ -26,5 +26,7 @@ Samsung DesArrolladoras se divide en tres fases:
 + Typescript
 
 ## Contribución
-Las Pull requests son bienvenidas. Para los cambios importantes, por favor, abra una cuestión en primer lugar para discutir lo que le gustaría cambiar.
+Las Pull requests son bienvenidas. Para los cambios importantes, por favor, abre una solicitud en primer lugar para discutir lo que te gustaría cambiar.
+
+
  
